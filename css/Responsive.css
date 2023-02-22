@@ -1,0 +1,974 @@
+/* -------------------------------------- */
+/*         ^LAPTOP RESPONSIVE CSS         */
+/* -------------------------------------- */
+@media screen and (max-width: 1200px) {
+
+    /* --------------------- Common Css --------------------- */
+    .btn {
+        padding: 20px 40px;
+        font-size: 18px;
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+    /* ------------------------------------------------------ */
+    /*                    !HOME-PAGE-START                    */
+    /* ------------------------------------------------------ */
+    /* ----------------------- Header ----------------------- */
+    .logo-area img {
+        width: 250px;
+    }
+
+    .main-menu-area ul {
+        gap: 40px;
+    }
+
+    .inner-header .right-area {
+        gap: 16px;
+    }
+
+    .main-menu-area ul li a {
+        font-size: 18px;
+    }
+
+    /* -------------------- Feature-area -------------------- */
+    .inner-feature-area .row .feature-box .feature-top-btn {
+        padding: 14px 26px;
+        font-size: 17px;
+    }
+
+    .inner-feature-area .row .feature-box .bottom-area a {
+        padding: 17px 16px;
+        font-size: 18px;
+    }
+
+    /* -------------------- Content-area -------------------- */
+    .tesmo-slider .swiper-slide p {
+        width: 80%;
+        margin: auto;
+        line-height: 123.5%;
+        font-size: 22px;
+        padding-bottom: 82px;
+    }
+
+
+    /* ---------------------- Blog-area --------------------- */
+    .blog-area .inner-blog-area .img-area .img-btn-area {
+        left: 3px;
+        gap: 7px;
+    }
+
+    .blog-area .inner-blog-area .img-btn {
+        padding: 15px 26px;
+        font-size: 17px;
+    }
+
+    /* --------------------- Social-area -------------------- */
+    #social-area {
+        padding: 250px 0px 100px 0px;
+    }
+
+    /* ------------------- Newsletter-area ------------------ */
+    .inner-newsletter .left-area form {
+        width: 100%;
+        padding: 27px 15px;
+    }
+
+    .inner-newsletter .left-area form input {
+        width: 80%;
+        padding: 0px 12px;
+        font-size: 16px;
+    }
+
+    .inner-newsletter .left-area form button {
+        position: absolute;
+        width: 20%;
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    .inner-newsletter .left-area ul {
+        gap: 20px;
+        width: 100%;
+    }
+
+
+    /* --------------------- Footer-area -------------------- */
+    .inner-footer .left-area {
+        gap: 10px;
+        width: 48%;
+    }
+
+    .inner-footer .left-area .resp .item {
+        gap: 10px;
+        width: 300px;
+    }
+
+    .inner-footer .right-area {
+        width: 48%;
+    }
+
+    footer .right-area .plan-box .left-area {
+        padding-left: 10px;
+    }
+
+    /* ------------------------------------------------------ */
+    /*                     !HOME-PAGE-END                     */
+    /* ------------------------------------------------------ */
+    /* ------------------------------------------------------ */
+    /*                          ^---                          */
+    /* ------------------------------------------------------ */
+    /* ------------------------------------------------------ */
+    /*                    !ABOUT-PAGE-START                   */
+    /* ------------------------------------------------------ */
+    /* --------------------- Common-area -------------------- */
+    .sub-title {
+        font-size: 21px;
+    }
+
+    .paragraph {
+        font-size: 18px;
+    }
+
+    /* --------------------- About-area --------------------- */
+    .ap-about-area .ap-left-area .ap-bottom-area .active-user-box {
+        padding: 0;
+    }
+
+    /* -------------------- Mission-area -------------------- */
+    .inner-mission-area .left-area ul li {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width:991px) {
+
+    /* --------------------- Common-area -------------------- */
+    .btn {
+        padding: 20px 40px;
+        font-size: 18px;
+    }
+
+    .paragraph {
+        font-size: 16px;
+    }
+
+    .title {
+        font-size: 35px;
+    }
+
+    .page-title {
+        font-size: 50px;
+    }
+
+    .sub-title {
+        font-size: 21px;
+    }
+
+    /* ------------------------------------------------------ */
+    /*                    !HOME-PAGE-START                    */
+    /* ------------------------------------------------------ */
+
+
+    /* --------------------- Header-area -------------------- */
+    header {
+        height: 30px;
+    }
+
+    .inner-header .right-area {
+        display: none;
+    }
+
+    .logo-area {
+        width: 20%;
+        text-align: left;
+    }
+
+    .main-menu-area {
+        width: 80%;
+    }
+
+    .main-menu-area ul {
+        gap: 45px;
+        justify-content: flex-end;
+    }
+
+    /* --------------------- Brand-area --------------------- */
+    .inner-brand-area {
+        width: 90%;
+        gap: 10px;
+    }
+
+    /* --------------------- About-area --------------------- */
+    .inner-about-area {
+        align-items: center;
+    }
+
+    .inner-about-area .left-area,
+    .inner-about-area .right-area {
+        width: 50%;
+    }
+
+
+    /* -------------------- Feature-area -------------------- */
+    .inner-feature-area .row1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+
+    .inner-feature-area .row .feature-box {
+        width: 96%;
+        padding: 10px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .inner-feature-area .row .feature-box1 {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .inner-feature-area .row .feature-box2 {
+        grid-area: 1 / 2 / 2 / 3;
+        margin-right: auto;
+    }
+
+    .inner-feature-area .row .feature-box3 {
+        grid-area: 2 / 1 / 3 / 3;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .inner-feature-area .row .feature-box .bottom-area {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .inner-feature-area .row .feature-box3 p {
+        width: 80%;
+        margin: 0px auto 34px;
+    }
+
+
+    /* --------------------- Social-area -------------------- */
+    #social-area {
+        padding: 100px 0px;
+    }
+
+    /* --------------------- Video-area --------------------- */
+    .inner-video-area .info-area h2 {
+        text-align: left;
+    }
+
+    .inner-video-area .video-btn {
+        gap: 10px;
+        padding: 4px 3px;
+    }
+
+    .inner-video-area {
+        padding: 100px 0px;
+    }
+
+    .inner-video-area .info-area {
+        padding-top: 100px;
+    }
+
+    /* ---------------------- Work-area --------------------- */
+    .inner-work-area {
+        flex-direction: column;
+    }
+
+    .inner-work-area .left-area,
+    .inner-work-area .right-area {
+        width: 100%;
+    }
+
+    /* -------------------- Content-area -------------------- */
+    .tesmo-slider .swiper-slide p {
+        line-height: normal;
+        font-size: 17px;
+    }
+
+    .content-area .counter-area .counter {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 90px;
+    }
+
+    /* ---------------------- Blog-area --------------------- */
+    .blog-area .top-area .left-area {
+        width: 65%;
+    }
+
+    .blog-area .inner-blog-area {
+        align-items: flex-start;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .blog-area .inner-blog-area .blog3 {
+        grid-area: 2 / 1 / 3 / 3;
+        text-align: center;
+    }
+
+    .blog-area .inner-blog-area .blog3 .img-btn-area {
+        left: 27%;
+    }
+
+    .blog-area .inner-blog-area .blog .img-area .span-area {
+        justify-content: space-around;
+    }
+
+    /* ------------------- Newsletter-area ------------------ */
+    .inner-newsletter {
+        flex-direction: column;
+        gap: 50px;
+        height: auto;
+    }
+
+    .inner-newsletter .left-area {
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .inner-newsletter .left-area ul {
+        gap: 35px;
+        justify-content: flex-start;
+    }
+
+    /* --------------------- Footer-area -------------------- */
+    .inner-footer {
+        flex-direction: column;
+    }
+
+    .inner-footer .left-area {
+        width: 100%;
+        border: none;
+    }
+
+    .inner-footer .left-area .resp {
+        width: 50%;
+    }
+
+    .inner-footer .left-area .utility {
+        width: 50%;
+    }
+
+    .inner-footer .right-area {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .inner-footer .right-area .left-area,
+    .inner-footer .right-area .right-area {
+        width: 48%;
+        padding-left: 38px;
+    }
+
+    footer .bottom-area {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    /* ------------------------------------------------------ */
+    /*                     !HOME-PAGE-END                     */
+    /* ------------------------------------------------------ */
+    /* ------------------------------------------------------ */
+    /*                          ^---                          */
+    /* ------------------------------------------------------ */
+    /* ------------------------------------------------------ */
+    /*                    !ABOUT-PAGE-START                   */
+    /* ------------------------------------------------------ */
+
+    /* ---------------- About-page-about-area --------------- */
+    .ap-about-area .ap-left-area .ap-bottom-area .active-user-box {
+        padding: 80px 0px;
+    }
+
+    .ap-inner-about-area {
+        flex-direction: column;
+    }
+
+    .ap-inner-about-area .ap-left-area,
+    .ap-inner-about-area .ap-right-area {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* -------------------- Mission-area -------------------- */
+    .inner-mission-area {
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .inner-mission-area .left-area,
+    .inner-mission-area .right-area {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .inner-mission-area .left-area ul {
+        text-align: center;
+        justify-content: center;
+        width: 75%;
+        margin: auto;
+
+    }
+
+    .inner-mission-area .left-area ul li {
+        align-self: flex-start;
+    }
+
+    /* ---------------------- Team-area --------------------- */
+    .inner-team-area .team-card-area {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 30px;
+    }
+
+    .inner-team-area .team-card-area .team-card {
+        grid-area: 1 / 1 / 2 / 2;
+        width: 100%;
+    }
+
+    .inner-team-area .team-card-area .team-card:nth-child(2) {
+        grid-area: 1 / 2 / 2 / 3;
+    }
+
+    .inner-team-area .team-card-area .team-card:last-child {
+        grid-area: 2 / 1 / 3 / 3;
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    /* --------------------- Common-area -------------------- */
+    .container {
+        width: 90%;
+        max-width: 767px;
+        overflow: hidden;
+    }
+
+    .page-title {
+        font-size: 40px;
+    }
+
+    .btn {
+        padding: 18px 30px;
+        font-size: 17px;
+    }
+
+    .paragraph {
+        font-size: 18px;
+    }
+
+
+    /* ------------------------------------------------------ */
+    /*                    !HOME-PAGE-START                    */
+    /* ------------------------------------------------------ */
+    .logo-area {
+        width: 80%;
+        text-align: left;
+        z-index: 9999999999999999999999;
+    }
+
+    .mobile-menu-area {
+        display: block;
+        position: absolute;
+        margin-right: 20px;
+        width: 20%;
+        top: 40px;
+        right: 0px;
+        align-self: flex-start;
+        z-index: 9999999999999999999999999999999999;
+    }
+
+    .mobile-menu-area i {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 10px;
+        font-size: 28px;
+    }
+
+    .mobile-menu-area i:last-child {
+        display: none;
+    }
+
+
+
+    .main-menu-area {
+        display: flex;
+        position: fixed;
+        width: 100%;
+        background-color: white;
+        z-index: 9999;
+        height: 100vh;
+        top: -60px;
+        left: -100%;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s linear;
+
+    }
+
+    .active .main-menu-area {
+        left: 0%;
+    }
+
+    .main-menu-area ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding-top: 0px;
+    }
+
+    .active .main-menu-area ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .active .logo-area {
+        align-self: flex-start;
+    }
+
+    .active .mobile-menu-area i:last-child {
+        display: flex;
+        font-size: 36px;
+    }
+
+    .active .mobile-menu-area i {
+        display: none;
+    }
+
+
+    /* ---------------------- Hero-area --------------------- */
+    .inner-hero-area span {
+        font-size: 17px;
+    }
+
+    .hero-area {
+        margin-bottom: 120px;
+        height: fit-content;
+    }
+
+
+
+    .inner-hero-area img {
+        width: 90%;
+        margin-top: 60px;
+    }
+
+    .inner-hero-area {
+        border-radius: 15px;
+    }
+
+    /* --------------------- Brand-area --------------------- */
+    .brand-area {
+        overflow: hidden;
+        margin-top: 0px;
+    }
+
+    .inner-brand-area {
+        width: 70%;
+        margin: auto;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .inner-brand-area img {
+        width: 50%;
+    }
+
+    /* --------------------- About-area --------------------- */
+    .about-area {
+        height: fit-content;
+        margin-top: 70px;
+        text-align: center;
+    }
+
+    .inner-about-area {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .inner-about-area .left-area,
+    .inner-about-area .right-area {
+        width: 100%;
+    }
+
+    .inner-about-area .right-area div {
+        display: none;
+    }
+
+    /* -------------------- Feature-area -------------------- */
+    .feature {
+        margin: 100px 0px;
+    }
+
+    .inner-feature-area .row {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    /* --------------------- Video-area --------------------- */
+    .inner-video-area .info-area {
+        padding-top: 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .inner-video-area .info-area h2 {
+        margin-bottom: 20px;
+    }
+
+    .inner-video-area .info-area span {
+        font-size: 18px;
+    }
+
+    .video-btn .info {
+        display: none;
+    }
+
+    .inner-video-area .video-btn {
+        padding: 0px;
+        display: block;
+        margin: auto;
+        display: none;
+    }
+
+    .video-area {
+        padding-bottom: 50px;
+        height: fit-content;
+    }
+
+    .inner-video-area {
+        padding: 30px 0px;
+    }
+
+    /* --------------------- Social-area -------------------- */
+    #social-area {
+        padding: 50px 0px;
+        text-align: center;
+    }
+
+    .inner-social-area {
+        flex-direction: column;
+    }
+
+    .inner-social-area .left-area,
+    .inner-social-area .right-area {
+        width: 100%;
+    }
+
+
+    /* ---------------------- Work-area --------------------- */
+    .inner-work-area .right-area .row {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    /* -------------------- Content-area -------------------- */
+    .content-area {
+        margin: 50px 0px;
+    }
+
+    .inner-content-area {
+        padding: 0px;
+    }
+
+    .next,
+    .prev {
+        top: 90%;
+        left: 50%;
+    }
+
+    .prev {
+        left: 30%;
+    }
+
+    .content-area .counter-area .counter {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .content-area .plan-area h3 {
+        text-align: center;
+        margin: 48px 10px 32px;
+    }
+
+    .content-area .plan-area a {
+        margin-bottom: 60px;
+    }
+
+
+    /* ---------------------- Blog-area --------------------- */
+    .blog-area .top-area {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .blog-area .top-area .left-area,
+    .blog-area .top-area .right-area {
+        width: 100%;
+    }
+
+    .blog-area .inner-blog-area {
+        display: flex;
+        flex-direction: column;
+        gap: 75px;
+        text-align: center;
+    }
+
+    .blog-area .inner-blog-area .img-area .img-btn-area {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .blog-area .inner-blog-area .blog3 .img-btn-area {
+        left: 0%;
+    }
+
+
+    /* ------------------- Newsletter-area ------------------ */
+    .inner-newsletter .left-area {
+        margin-top: 50px;
+    }
+
+    .inner-newsletter {
+        padding: 0px 20px;
+        text-align: center;
+    }
+
+    .inner-newsletter .left-area ul {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 20px;
+    }
+
+    .inner-newsletter .left-area,
+    .inner-newsletter .right-area {
+        width: 100%;
+    }
+
+
+
+    /* --------------------- Footer-area -------------------- */
+    footer .top-area {
+        flex-direction: column;
+        gap: 30px;
+        height: fit-content;
+        padding: 30px 0px;
+    }
+
+    footer .top-area .left-area,
+    footer .top-area .right-area {
+        width: 100%;
+        text-align: center;
+    }
+
+    .inner-footer .left-area {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .inner-footer .left-area .resp {
+        width: 100%;
+    }
+
+    .inner-footer .left-area .resp .item {
+        width: 100%;
+    }
+
+    .inner-footer .left-area .resp .item ul {
+        width: 50%;
+    }
+
+    .inner-footer .left-area .utility {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    footer .right-area .plan-box {
+        flex-direction: column;
+    }
+
+    footer .right-area .plan-box .left-area,
+    footer .right-area .plan-box .right-area {
+        width: 100%;
+        padding-left: 38px;
+    }
+
+    footer .right-area .plan-box .right-area {
+        margin-bottom: 30px;
+    }
+
+    footer .right-area .plan-box .left-area a {
+        margin-bottom: 0px;
+    }
+
+    footer .bottom-area {
+        text-align: center;
+    }
+
+    /* ------------------------------------------------------ */
+    /*                     !HOME-PAGE-END                     */
+    /* ------------------------------------------------------ */
+    /* ------------------------------------------------------ */
+    /*                          ^---                          */
+    /* ------------------------------------------------------ */
+    /* ------------------------------------------------------ */
+    /*                    !ABOUT-PAGE-START                   */
+    /* ------------------------------------------------------ */
+
+    /* ---------------- About-page-about-area --------------- */
+    .ap-about-area .ap-left-area .ap-bottom-area {
+        flex-direction: column;
+    }
+
+    .ap-about-area .ap-left-area .ap-bottom-area .active-user-box {
+        width: 100%;
+    }
+
+    .ap-about-area .ap-left-area .ap-bottom-area img {
+        width: 100%;
+    }
+
+    /* -------------------- Mission-area -------------------- */
+    .inner-mission-area .left-area ul {
+        width: 100%;
+        text-align: left;
+    }
+
+    .inner-mission-area .left-area ul li {
+        font-size: 16px;
+    }
+
+    .inner-mission-area .right-area {
+        flex-direction: column;
+    }
+
+
+    /* --------------------- Value-area --------------------- */
+    .inner-value-area {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 20px;
+    }
+
+    .inner-value-area .value-box {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .inner-value-area .value-box2 {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
+    .inner-value-area .value-box3 {
+        grid-area: 3 / 1 / 4 / 2;
+    }
+
+    .inner-value-area .value-box4 {
+        grid-area: 4 / 1 / 5 / 2;
+    }
+
+    .inner-value-area .value-box5 {
+        grid-area: 5 / 1 / 6 / 2;
+    }
+
+    .inner-value-area .value-box6 {
+        grid-area: 6 / 1 / 7 / 2;
+    }
+
+
+    /* ---------------------- Team-area --------------------- */
+    .inner-team-area .top-area {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .inner-team-area .top-area .left-area,
+    .inner-team-area .top-area .right-area {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    .inner-team-area {
+        padding: 100px 20px;
+        text-align: center;
+    }
+
+    .inner-team-area .team-card-area {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .inner-team-area .team-card-area .team-card {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .inner-team-area .team-card-area .team-card:nth-child(2) {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
+    .inner-team-area .team-card-area .team-card:last-child {
+        grid-area: 3 / 1 / 4 / 2;
+    }
+
+
+    /* -------------------- Investor-area ------------------- */
+    .investor-area {
+        margin-bottom: 0px;
+    }
+
+    .inner-investor-area {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .inner-investor-area .investor-box {
+        grid-area: 1 / 1 / 2 / 2;
+        padding: 20px;
+    }
+
+    .inner-investor-area .investor-box:nth-child(2) {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
+    .inner-investor-area .investor-box:nth-child(3) {
+        grid-area: 3 / 1 / 4 / 2;
+    }
+
+    .inner-investor-area .investor-box:last-child {
+        grid-area: 4 / 1 / 5 / 2;
+    }
+
+    /* ------------------------------------------------------ */
+    /*                     !ABOUT-PAGE-END                    */
+    /* ------------------------------------------------------ */
+}
